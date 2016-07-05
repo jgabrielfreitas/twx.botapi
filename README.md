@@ -40,7 +40,7 @@ Quick Start
 -----------
 
 
-::
+```python
 
     from twx.botapi import TelegramBot, ReplyKeyboardMarkup
     
@@ -79,3 +79,4 @@ Quick Start
     reply_markup = ReplyKeyboardMarkup.create(keyboard)
 
     bot.send_message(user_id, 'please enter a number', reply_markup=reply_markup).wait()
+```
